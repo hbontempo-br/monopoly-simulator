@@ -61,16 +61,14 @@ $ pre-commit run --all-files
 
 ## Tests
 
-```
-NOT IMPLEMENTED
+This uses unittest for testing. To execute the tests:
+
+```sh
+$ python3 -m unittest discover -s test -p '*_test.py'
 ```
 
-
-<br/>
-<br/>
-<br/>
 
 ---
 
 #### TODOs:
-- Design tests.
+- Design tests (for Game and Player classes).
