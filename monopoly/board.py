@@ -41,8 +41,8 @@ class Board:
         max_rent_percentage: int,
     ) -> RealState:
         price = randint(a=min_price, b=max_price)
-        rent_percentage = randint(a=min_rent_percentage, b=max_rent_percentage,) // 100
-        rent_value = price * rent_percentage
+        rent_proportion = randint(a=min_rent_percentage, b=max_rent_percentage,)
+        rent_value = (price * rent_proportion) // 100
         real_state = RealState(price=price, rent_value=rent_value)
         return real_state
 

@@ -7,7 +7,7 @@ A simulator for a simplified version of the monopoly game
 *This project is meant to run using **python 3.7** or greater, other versions may not work.*
 
 As usual its strongly recommended to run service in a virtual environment.
-``
+
 ### Clone project
 ```sh
 $ git@github.com:hbontempo-br/monopoly-simulator.git
